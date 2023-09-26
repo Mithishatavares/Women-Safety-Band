@@ -1,0 +1,152 @@
+* { margin: 0;
+    padding: 0;
+}
+html, body {
+    height: 100%;
+
+}
+
+.sign-in_container
+{
+position: fixed;
+width: 307px;
+height: 420px;
+left: 50%;
+top: 80%;
+margin-right: 50%;
+transform: translate(-50%,-80%);
+background: rgba(49, 47, 47, 0.53);
+box-shadow: 0px 4px 4px rgba(49, 47, 47, 0.25);
+border-radius: 70px;
+}
+.name
+{
+position: fixed;
+width: 88px;
+height: 23px;
+left: 42%;
+margin-right: 58%;
+top: 379px;
+
+font-family: Open Sans Hebrew Condensed;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 40px;
+
+color: #FFFFFF;
+}
+.enter_name{
+position: fixed;
+width: 263px;
+height: 33px;
+left: 41%;
+margin-right: 59%;
+top: 412px;
+
+background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 90px;
+}
+
+.email{
+position: fixed;
+width: 205px;
+height: 23px;
+left: 42%;
+margin-right: 58%;
+top: 485px;
+
+font-family: Open Sans Hebrew Condensed;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 40px;
+
+color: #FFFFFF;
+}
+.enter_email
+{
+position: fixed;
+width: 263px;
+height: 33px;
+left: 41%;
+margin-right: 59%;
+top: 520px;
+
+background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 90px;
+}
+
+.confirm_details
+{
+position: fixed;
+width: 139px;
+height: 45px;
+top: 600px;
+
+background: #06DE02;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 90px;
+
+
+/* Confirm */
+
+
+position: fixed;
+width: 91px;
+height: 23px;
+padding-left: 20px;
+padding-bottom: 10px;
+left: 46%;
+margin-right: 54%;
+font-family: Open Sans Hebrew Condensed;
+font-style: normal;
+font-weight: 800;
+font-size: 17px;
+line-height: 33px;
+transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+color: #FFFFFF;
+}
+.confirm_details:after {
+    content: "";
+    background: #f1f1f1;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px !important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+  }
+  
+  .confirm_details:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+  }
+  .error_container
+  {
+    position: fixed;
+    width: 200px;
+    height: 23px;
+    left: 43%;
+    margin-right: 57%;;
+    top: 420px;
+    
+    font-family: Open Sans Hebrew Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 43px;
+    text-align: center;
+    
+    color: #FFFFFF;
+  }
+
